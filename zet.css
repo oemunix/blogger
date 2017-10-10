@@ -1,0 +1,859 @@
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none
+}
+body {
+background: #ffffff url(ttps://lh3.googleusercontent.com/-6HA83V4CB0Q/UsYlHac3E2I/AAAAAAAAAJU/49S2h5JZ7L0/h120/bg.png)repeat;
+color:#333333;
+font:15px 'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+margin:0;
+}
+a, a:link, a:visited {
+color:#333333;
+text-decoration:none;
+}
+a:hover {
+color:#007ACC;
+}
+#outer-wrapper {
+background:#FFFFFF;
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:12px;
+margin:0px auto;
+text-align:justify;
+max-width:900px;
+width:100%;
+}
+#header-wrapper {
+background:transparent url(http://4.bp.blogspot.com/-ayn1zzp-GyY/ULcdmXAeEtI/AAAAAAAAAIk/YJ_JAr-I_xg/s1600/header-bg.jpg) repeat-x scroll left bottom;
+height:90px;
+border-bottom:1px solid #ccc;
+box-shadow: 0 3px 3px rgba(0, 0, 0, .07);
+margin-bottom: 20px;
+}
+#header-box{
+background:transparent url() repeat-x scroll left bottom;
+max-width:900px;
+width:100%;
+height:90px;
+margin: 0px auto;
+}
+#menu{
+float:right;
+max-width:500px;
+width:100%;
+padding:0;
+margin-top:15px;
+z-index:10;
+}
+#header-inner{
+margin: 15px auto;
+}
+#header {
+float:left;
+max-width:250px;
+width:100%;
+}
+#header .title {
+color:#ddd;
+text-shadow: -1px -1px 0px #202020, 1px 1px 0px #fff;
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:30px;
+font-weight:bold;
+letter-spacing:-1px;
+float:left;
+margin-top:10px;
+}
+#header .description {
+color:#ddd;
+text-shadow: -1px -1px 0px #202020, 1px 1px 0px #fff;
+font-family:georgia;
+font-size:10px;
+font-style:italic;
+font-weight:normal;
+letter-spacing:0;
+margin-top:5px;
+float:left;
+}
+#tagline {
+float:left;
+max-width:200px;
+width:100%;
+}
+#content-wrapper {
+margin:0 auto 0px;
+overflow:hidden;
+padding:0;
+max-width:900px;
+width:100%;
+}
+#main-wrapper {
+float:left;
+margin:5px 0px 10px;
+overflow:hidden;
+max-width:515px;
+width:100%;
+word-wrap:break-word;
+}
+#page-wrapper {
+float:left;
+margin:5px 0px 10px;
+overflow:hidden;
+max-width:900px;
+width:100%;
+word-wrap:break-word;
+}
+#main-front {
+float:left;
+padding-right:20px;
+overflow:hidden;
+max-width:600px;
+width:100%;
+border-right:1px dashed #ccc;
+word-wrap:break-word;
+}
+#sidebar-front {
+border-left: 0px solid #dddddd;
+border-bottom: 0px solid #dddddd;
+background:#ffffff;
+max-width:250px;
+width:100%;
+float:right;
+padding:10px 10px 10px 0px;
+z-index:1;
+}
+#klien {
+float:left;
+margin-right:0px;
+margin-left:0px;
+overflow:hidden;
+}
+#sidebar-top {
+border-left: 0px solid #dddddd;
+border-bottom: 1px solid #dddddd;
+background:#ffffff;
+max-width:300px;
+width:100%;
+float:right;
+padding:10px;
+}
+#sidebar-wrapper .iklan {margin: 20px 0px 0px 25px; background: #fff; overflow: hidden; clear: both;}
+#sidebar-wrapper {
+background:transparent url() repeat-y scroll left top;
+float:right;
+overflow:hidden;
+padding-left:8px;
+margin-right:13px;
+max-width:300px;
+width:100%;
+word-wrap:break-word;
+}
+h2 {
+color:#000000;
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:16px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:1.5em;
+margin-bottom:7px;
+margin-top:5px;
+}
+.post {
+margin:0.5em 0 1.5em;
+}
+.post h1, .post h2 {
+color:#007ACC;
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:20px;
+font-weight:normal;
+line-height:1em;
+margin:0;
+padding:0 0 5px;
+}
+.post h1 a, .post h1 a:visited, .post h1 strong,  .post h2 a, .post h2 a:visited, .post h2 strong {
+color:#007ACC;
+display:block;
+font-weight:normal;
+text-decoration:none;
+}
+.post h1 a:hover, .post h2 a:hover {
+color:#000000;
+}
+.post-body {
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:14px;
+line-height:1.4em;
+margin:0 0 0.75em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+border-bottom:1px solid #EEEEEE;
+color:#999999;
+font-style:normal;
+letter-spacing:0;
+margin:0.3em 0;
+padding:2px;
+text-transform:none;
+}
+.comment-link {
+margin-left:0em;
+}
+.post img {
+border:4px solid #DDDDDD;
+}
+.post blockquote {
+color:#666666;
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-style:italic;
+margin:1em 20px;
+}
+.post blockquote p {
+margin:0.75em 0;
+}
+#comments h4 {
+color:#666666;
+font-weight:normal;
+letter-spacing:0.2em;
+line-height:1.4em;
+margin:1em 0;
+font-size:medium;
+text-transform:none;
+}
+#comments-block{border:0px dotted #ccc;width:507px;margin:1.3em 0 1.5em;line-height:1.6em}#comments-block .comment-author{background:#f6f6f6;border-top:1px solid #ddd;margin:.5em 0;padding-left:0px;color:#111}#comments-block .comment-author a:link,a:visited{color:#333333;}comments-block .comment-body{padding-left:0px;color:#333}#comments-block .comment-footer{padding-left:0px;margin:.25em 0 2em;line-height:1.5em;font-size:9px;border-top:1px solid #ddd}#comments-block .comment-footer a:link,a:visited{color:#333333}#comments-block .comment-body p{text-align:justify;margin:0 1em .75em;padding-left:5px;border-left:3px solid #f0f0f0}#comments-block a:link{color:#333333}.deleted-comment{font-style:italic; color:gray}.owner-Body{padding-left:0px;color:#333}.owner-Body p{text-align:justify;margin:0 1em .75em;padding-left:5px;background:#f5f5f5;border-left:3px solid #ddd}
+#blog-pager-newer-link {
+float:left;
+}
+#blog-pager-older-link {
+float:right;
+}
+#blog-pager {
+text-align:center;
+}
+.feed-links {
+clear:both;
+line-height:2.5em;
+}
+.sidebar {
+color:#666666;
+line-height:1.5em;
+}
+.sidebar ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+.sidebar li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(http://4.bp.blogspot.com/_qJFbsMHBJNg/SoaUE7XY4hI/AAAAAAAAAJY/fQ02np_6CiY/s1600/libg300.png) no-repeat scroll left -1px;
+line-height:1.5em;
+margin:0;
+padding:0 0 0.25em 15px;
+}
+.sidebar .widget, .main .widget {
+margin:0 0 0.2em;
+padding:0 0 0.2em;
+}
+.main .Blog {
+border-bottom-width:0;
+}
+.profile-img {
+border:1px solid #CCCCCC;
+float:left;
+margin:0 5px 5px 0;
+padding:4px;
+}
+.profile-data {
+color:#999999;
+font-family:''Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:78%;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+letter-spacing:0.1em;
+line-height:1.6em;
+margin:0;
+text-transform:uppercase;
+}
+.profile-datablock {
+margin:0.5em 0;
+}
+.profile-textblock {
+line-height:1.6em;
+margin:0.5em 0;
+}
+.profile-link {
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+font-size:78%;
+letter-spacing:0.1em;
+line-height:normal;
+text-transform:uppercase;
+}
+#comments {
+font-family:'Segoe UI', Calibri, 'Myriad Pro', Myriad, 'Trebuchet MS', Helvetica, sans-serif;
+}
+/************** FOOTER *****************/
+#footer-wrapper {
+clear:both;
+overflow:hidden;
+background:transparent url(http://4.bp.blogspot.com/-ayn1zzp-GyY/ULcdmXAeEtI/AAAAAAAAAIk/YJ_JAr-I_xg/s1600/header-bg.jpg) repeat;
+border-top:1px solid #ccc;
+box-shadow: 3px 3px 0 rgba(0, 0, 0, .07);
+}
+#footer {
+font-size:14px;
+margin:0 auto;
+text-align:left;
+max-width:900px;
+margin:0px auto;
+}
+#footer .widget {
+float:left;
+padding:15px 15px 15px 0;
+margin:0px;
+}
+#member {
+max-width:900px;
+width:100%;
+margin:0px auto;
+height:50px;
+padding:15px;
+border-bottom: 1px solid #ddd;
+}
+#member1 .widget, #member2 .widget {
+margin:0px;
+}
+#member1 .widget {
+float:left;
+}
+#member2 .widget {
+float:right;
+}
+#footer-wrapper ul li {
+border-bottom:1px dashed #ccc;
+font-size:14px;
+margin-bottom:5px;
+padding:0 0 5px 0;
+}
+#footer-wrapper ul {
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+#footer-wrapper h2, #sidebar-front h2 {
+color:#003366;
+font-size:20px;
+line-height:25px;
+margin:0;
+padding-bottom:5px;
+padding-top:5px;
+}
+#credit {
+margin:0 auto 10px;
+overflow:hidden;
+border-top: 1px solid #fff;
+max-width:900px;
+}
+#credit a:link, a:visited{color:#333333;}
+#credit a:hover{color:#007ACC;}
+#credit .copyright {
+float:right;
+}
+#credit .link {
+float:left;
+}
+#credit p {
+font-size:12px;
+margin:0;
+padding:12px 0 7px;
+text-align:center;
+}
+.post-comment-link {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+margin-left:0px;
+padding-left:0px; font-size: large;
+}
+.breadcrumbs {
+padding:0px 5px 5px;
+margin: 0px 0px 15px 0px;
+font-size:95%;
+line-height: 1.4em;
+border-bottom:1px solid #ddd;
+}
+/* Top Menu Mulai */
+#nav {
+margin-top:10px;
+}
+
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+	
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #5d5d5d;
+	display: inline-block;
+	font: 15px/1 Lobster,Arial,sans-serif;
+	padding: 12px 20px 14px;
+	position: relative;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+.fancyNav li a.cari {
+	padding: 10px 10px 12px;
+}
+.fancyNav li a:hover {
+text-transform:capitalize;
+}
+.fancyNav a.homeIcon{
+	background:url('http://4.bp.blogspot.com/-r_C6ioYtu10/T9f4fwrv-dI/AAAAAAAAABk/XvCx6KA9vqM/s1600/home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
+/* Top Menu Akhir */
+#mengapa {
+width: 270px;
+}
+#mengapa h2 {margin-left:20px;}
+ol{
+	counter-reset: li; /* Initiate a counter */
+	list-style: none; /* Remove default numbering */
+	*list-style: decimal; /* Keep using default numbering for IE6/7 */
+	font: 15px 'trebuchet MS', 'lucida sans';
+	padding: 0 0px 5px 10px;
+	margin-bottom: 0em;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol{
+	margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+.rounded-list li{
+width: 215px;
+padding-left:1.3em;
+}
+.rounded-list a{
+	position: relative;
+	display: block;
+	padding: .4em .4em .4em 2em;
+	*padding: .4em;
+	margin: .5em 0;
+	background: #ddd;
+	color: #444;
+	text-decoration: none;
+	border-radius: .3em;
+	transition: all .3s ease-out;	
+}
+
+.rounded-list a:hover{
+	background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);
+}
+
+.rounded-list a:before{
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;	
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: #87ceeb;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: .3em solid #fff;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	transition: all .3s ease-out;
+}
+
+#proyek {
+padding:0px;
+width:600px;
+}
+#proyek h2, #sidebar-front h2{
+fontsize:15px;
+border-bottom: 2px solid #ccc;
+margin-bottom:10px;
+}
+pre.center {text-align: center;font-size: 2em;font-family: Arial;line-height: 1.5em;}
+.Harga .entry-content table {
+font-size:16px;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%!important;
+color: #000;
+border:1px solid #ccc;
+}
+pre.daftar{text-align: center;font-size: 1.4em;line-height: 1.1em;border: 4px dashed #0091D6;border-radius: 8px;padding: 10px 0px;}
+
+img.recent_thumb {
+padding-right:5px;padding-left:padding-bottom:0px;0px;width:55px;height:40px;border:0;float:left;margin:0 0 5px 0px;
+} 
+.recent_posts_with_thumbs {
+float: left;width: 100%;height:200px;margin: 0px 0px 5px 0px;padding: 0;font-size:13px;font-color:black;font-family:helvetica,arial;font-weight:normal;
+} 
+ul.recent_posts_with_thumbs li {
+padding-bottom:5px;padding-top:5px;padding-left:0px;padding-right:20px;min-height:50px;list-style:none;width:50%;float:left;border-bottom:1px dashed #ccc;
+} 
+.recent_posts_with_thumbs a {
+text-decoration:none;
+} 
+.recent_posts_with_thumbs normal {
+font-size:13px;
+} 
+
+span.tombol {
+background:#eee;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+padding:1px 5px;
+border:1px solid #ddd;
+float:right;
+margin-bottom:5px;
+font-size:11px;font-color:black;font-family:helvetica,arial;
+
+}
+
+/*----------------------------
+	CSS3 Animated Navigation
+-----------------------------*/
+#nav {
+margin-top:10px;
+}
+
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+	
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #5d5d5d;
+	display: inline-block;
+	font: 15px/1 Lobster,Arial,sans-serif;
+	padding: 12px 20px 14px;
+	position: relative;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+.fancyNav li a.cari {
+	padding: 10px 10px 12px;
+}
+.fancyNav li a:hover {
+text-transform:capitalize;
+}
+.fancyNav a.homeIcon{
+	background:url('http://4.bp.blogspot.com/-r_C6ioYtu10/T9f4fwrv-dI/AAAAAAAAABk/XvCx6KA9vqM/s1600/home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+ul.box {
+position: relative;
+z-index: 1; /* prevent shadows falling behind containers with backgrounds */
+overflow: hidden;
+list-style: none;
+margin-left: 10px;
+padding: 0; 
+z-index:1;
+}
+
+
+ul.box li {
+position: relative;
+float: left;
+width: 250px;
+height: 180px;
+padding-top: 10px;
+padding-left: 10px;
+border: 1px solid #efefef;
+margin: 0 30px 20px 0;
+background: #fff;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }
+
+
+ul.box li:before,
+ul.box li:after {
+content: '';
+z-index: -1;
+position: absolute;
+left: 10px;
+bottom: 10px;
+width: 70%;
+max-width: 325px; /* avoid rotation causing ugly appearance at large container widths */
+max-height: 100px;
+height: 55%;
+-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+-webkit-transform: skew(-15deg) rotate(-6deg);
+-moz-transform: skew(-15deg) rotate(-6deg);
+-ms-transform: skew(-15deg) rotate(-6deg);
+-o-transform: skew(-15deg) rotate(-6deg);
+transform: skew(-15deg) rotate(-6deg); }
+
+
+ul.box li:after {
+left: auto;
+right: 10px;
+-webkit-transform: skew(15deg) rotate(6deg);
+-moz-transform: skew(15deg) rotate(6deg);
+-ms-transform: skew(15deg) rotate(6deg);
+-o-transform: skew(15deg) rotate(6deg);
+transform: skew(15deg) rotate(6deg); }
