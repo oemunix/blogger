@@ -14,7 +14,7 @@ $(document).ready(function() {
 var bhf = ['gbutton', 'tfollow', 'ttweet', 'gbadge', 'embed', 'fbsend', 'fbfollow', 'fbshare', 'fblike', 'blockquote'];
 
 // Can be added in Blog posts
-$('.post').each(function() {
+$('.entry-content').each(function() {
     var html = $(this).html();
     html = mbt(html);
     if (html != '') {
