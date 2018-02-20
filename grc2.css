@@ -43,18 +43,6 @@ font-size: 1.25em;
 }
 .item-control{float:right;}
 .entry-content blockquote {background: #f5f5f5;padding: 1em;font-size: 1.2em;border: 1px solid #ccc;border-radius: 4px;margin: 12px;}
-
-@media only screen and (max-width: 480px) {
-	/* Force table to not be like tables anymore */
-	.Harga .entry-content table,.Harga .entry-content  thead,.Harga .entry-content  tbody,.Harga .entry-content  th,.Harga .entry-content  td,.Harga .entry-content  tr { 
-		display: block; 
-		width: 100%;
-		margin: 0px auto;
-		min-width: 220px;
-	}
-	.Harga .entry-content td{padding: 0px!important;text-align: center;float:none;display:block;height: auto !important;}
-.Harga .entry-content td[rowspan]{width:100%;}
-}
 pre {
     white-space: pre-wrap;       /* Since CSS 2.1 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
