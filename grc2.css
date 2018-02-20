@@ -44,44 +44,6 @@ font-size: 1.25em;
 .item-control{float:right;}
 .entry-content blockquote {background: #f5f5f5;padding: 1em;font-size: 1.2em;border: 1px solid #ccc;border-radius: 4px;margin: 12px;}
 
-.Harga .entry-content table {
-    font-size:16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%!important;
-color: #000;
-border:1px solid #ccc;
-}
-
-.Harga .entry-content td, .Harga .entry-content th {
-    border: 1px solid #ddd;
-    text-align: center!important;
-    padding: 8px;
-}
-
-.Harga .entry-content tr:first-child{
-	background: #4784A5;
-	color: #fff;
-font-size: 1.5em;
-line-height: 1.5em;
-}
-.Harga .entry-content tr:nth-child(2){
-	background: #7AACC7!important;
-	color: #fff;
-}
-.Harga .entry-content tr td{border:none;}
-.Harga .entry-content td[rowspan] {background:#fff;border:1px solid #ccc!important;width:25%;}
-
-.Harga .entry-content tr:nth-child(even){background-color: #D9D9D9;}
-
-.Harga .entry-content th {
-    padding-top: 11px;
-    padding-bottom: 11px;
-    background-color: #4CAF50;
-    color: white;
-}
-
 @media only screen and (max-width: 480px) {
 	/* Force table to not be like tables anymore */
 	.Harga .entry-content table,.Harga .entry-content  thead,.Harga .entry-content  tbody,.Harga .entry-content  th,.Harga .entry-content  td,.Harga .entry-content  tr { 
