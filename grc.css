@@ -1,3 +1,219 @@
+#header-inner {min-height:305px!important;height:100%;background-size:cover;}
+.Header h1 {
+    font: bold 30px Verdana, Geneva, sans-serif;
+    color: #444;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+margin-top: -10px;
+}/* Dihilangkan */
+#Attribution1, .foot .Image h2, p.description {display:none!important;}
+
+.sidebar .widget:nth-child(1) h2 {
+background-repeat: repeat-x;
+background-color:#6AB24E;
+color: #fff;
+border: 1px solid #000;
+background-image:none;
+}
+
+.foot h2, .sidebar h2 {
+    margin: 10px 0 0 0;
+    padding: 8px 0px 5px 10px;
+    text-align: center;
+background-color:#2E71B7;
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFF!important;
+    font-family: verdana, Sans-serif;
+    font-weight: bold!important;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #33444e;
+padding:0.7em;
+}
+.sidebar .widget-content {
+margin-top:-20px;
+border: 1px solid;
+border-radius: 0px 0px 8px 8px;
+padding: 5px 7px;
+text-align: center;
+font-size: 1.25em;
+}
+.item-control{float:right;}
+.entry-content blockquote {background: #f5f5f5;padding: 1em;font-size: 1.2em;border: 1px solid #ccc;border-radius: 4px;margin: 12px;}
+
+.Harga .entry-content table {
+    font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%!important;
+color: #000;
+border:1px solid #ccc;
+}
+
+.Harga .entry-content td, .Harga .entry-content th {
+    border: 1px solid #ddd;
+    text-align: center!important;
+    padding: 8px;
+}
+
+.Harga .entry-content tr:first-child{
+	background: #4784A5;
+	color: #fff;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+.Harga .entry-content tr:nth-child(2){
+	background: #7AACC7!important;
+	color: #fff;
+}
+.Harga .entry-content tr td{border:none;}
+.Harga .entry-content td[rowspan] {background:#fff;border:1px solid #ccc!important;width:25%;}
+
+.Harga .entry-content tr:nth-child(even){background-color: #D9D9D9;}
+
+.Harga .entry-content th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+	/* Force table to not be like tables anymore */
+	.Harga .entry-content table,.Harga .entry-content  thead,.Harga .entry-content  tbody,.Harga .entry-content  th,.Harga .entry-content  td,.Harga .entry-content  tr { 
+		display: block; 
+		width: 100%;
+		margin: 0px auto;
+		min-width: 220px;
+	}
+	.Harga .entry-content td{padding: 0px!important;text-align: center;float:none;display:block;height: auto !important;}
+.Harga .entry-content td[rowspan]{width:100%;}
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+font-family: Arial;
+}
+footer, .footer-outer{
+background: #202020;
+color: #fff;
+}
+.foot .Image img{float: left;width: 64px;height: 32px;border-radius: 8px;padding-right:5px;} 
+.foot .Image .caption {display: block;margin: -9px;font-weight: bold;}
+.quickedit img{width:18px!important;height:auto;}
+.daftar {font-size:1.1em;}
+pre.center {font-size:1.5em;font-weight:bold;}
+.foot .widget {margin:15px 0;}
+
+/*
+.foot h2, .sidebar h2{position: relative;}
+.foot h2::before, .sidebar h2::before {
+    position: absolute;
+    content: "\27A4";
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    top: 8px;
+}
+.foot h2::after, .sidebar h2::after {
+    position: absolute;
+    content: "+";
+    right: 10px;
+    color: #FFF;
+    font-weight: bold;
+    top: 8px;
+background: #333;
+padding: 0 4px;
+border-radius: 4px;
+}
+.sidebar .widget:nth-child(1) h2::after {
+    position: absolute;
+    content: "\2013";
+    right: 10px;
+    color: #000;
+    font-weight: bold;
+    top: 8px;
+background: #FFF;
+padding: 0 4px;
+border-radius: 4px;
+}
+*/
+.widget img {margin-top:8px}
+#header-inner {min-width: 1060px;width:100%important;height:auto!important;}
+.hentry {
+	line-height: 1;
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+-o-user-select: none;
+user-select: none;}
+
+.Feed ul {text-align:left!important;}
+.hentry img{border: 1px solid #ccc;padding: 5px;}
+iframe {border:none;}
+.foot .gsc-input{min-height:34px;}
+.foot .gsc-search-button{min-height:39px;}
+.breadcrumbs {padding:5px 5px 5px 0px; margin: 0px 0px 15px 0px; font-size:85%; line-height: 1.4em; border-bottom:3px double #e6e4e3;}
+a:link, a:visited {
+    text-decoration: none;
+    color: #3799E3;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.footer-outer a:hover {
+    text-decoration: none;
+    color: #6AB24E;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+.iframe-harga{height: 2000px; overflow-y: scroll;" width="100%}
+.iframe-ppob {height: 600px; overflow-y: scroll;" width="100%}
+/* Checkbox Hack */
+
+.entry-content input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+.entry-content label { 
+  -webkit-appearance: push-button;
+  -moz-appearance: button; 
+  display: inline-block;
+  margin: 20px 0 0px 0;
+  cursor: pointer;
+}
+
+/* Default State */
+.isi {
+   display:none;
+}
+
+/* Toggled State */
+input[type=checkbox]:checked ~ .isi {
+   display: block;
+}
+.thumbnail-post {
+width:100px!important; 
+height:100px!important; 
+float:left; 
+margin:0px 10px 0px 0px;
+}
+.index .post-body {line-height: 2.4;}
+.sidebar .PageList li{text-align:left;}
+#share-button-templatoid{margin:0 0 8px;padding:0;overflow:hidden;text-transform:uppercase;font-size:12px}#share-button-templatoid p{font-size:100%;float:left;background:#1abc9c;display:block;padding:2px 10px;margin:2px;color:#fff}#share-button-templatoid a{position:relative;float:left;display:block;color:#fafafa;padding:2px 10px;margin:2px}#share-button-templatoid a:hover{background:#626e7c!important}
+.post .fb_iframe_widget {float: right;bottom: 20px;right: -20px;}
+#blog-pager {margin-top: 60px;border: 1px solid #eee;padding: 8px 0px;border-radius: 4px;}
 #tampiltanggal {
 text-align: center;
 font-weight: bold;
