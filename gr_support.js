@@ -3,7 +3,7 @@
   window.intergramCustomizations = {
     titleClosed: 'Support & Bantuan',
     titleOpen: 'Live Chat',
-    introMessage: 'Sebutkan Atas Nama dan ID Agen Anda ! CS Online 07:00 s.d 21:00 WIB',
+    introMessage: 'Sebutkan Atas Nama dan ID Agen Anda ! Online 07:00 s.d 21:00 WIB',
     autoResponse: 'pesan sudah diterima, ditunggu yah bos',
     autoNoResponse: 'mohon ditunggu bos ' +
                         'and no response was received',
